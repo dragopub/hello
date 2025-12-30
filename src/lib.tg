@@ -1,0 +1,17 @@
+// hello - greeting helpers for Thagore.
+//
+// Usage:
+//   use hello as hello
+//   out(hello.hello("Ada"))
+
+func hello(name = null)
+    if name
+        return v"Xin chao {name}!"
+    return "Xin chao!"
+
+func welcome(name, app = "Thagore")
+    if name
+        return v"Chao mung {name} den voi {app}!"
+    return v"Chao mung den voi {app}!"
+
+func version() = "0.1.0"

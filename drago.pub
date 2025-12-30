@@ -1,0 +1,6 @@
+name = "hello"
+version = "0.1.0"
+entry = "src/lib.tg"
+language = "thagore"
+description = "Greeting helpers for Thagore"
+license = "MIT"
